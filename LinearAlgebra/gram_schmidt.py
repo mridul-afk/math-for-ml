@@ -13,7 +13,7 @@ def gram_schmidt(basis_vectors):
     q_new = u / np.linalg.norm(u)
     Q.append(q_new)
 
-    return Q
+  return Q
   
 
 if __name__ == "__main__":
